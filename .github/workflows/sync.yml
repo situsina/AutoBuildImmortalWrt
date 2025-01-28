@@ -22,7 +22,7 @@ jobs:
               uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
               with:
                   target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-                  upstream_sync_repo: wukongdaily/AutoBuildImmortalWrt
+                  upstream_sync_repo: wukongdaily/AutoBuildImmortalWrt:master
                   upstream_sync_branch: .
                   target_sync_branch: .
                   test_mode: false
